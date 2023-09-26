@@ -1,0 +1,11 @@
+.listing_films .bloc_film {
+    max-width: 47%;
+    overflow: hidden;
+}
+
+.bloc_film p.genre {
+    max-width: 16ch;
+    height: 4em;
+    display: inline-block;
+    word-wrap: break-word;
+}
