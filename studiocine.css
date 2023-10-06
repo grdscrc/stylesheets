@@ -9,3 +9,15 @@
     display: inline-block;
     word-wrap: break-word;
 }
+
+#mobile-menu ul.level_2 li {
+	margin: 0;
+	padding: 0.1rem 0;
+	border-bottom: 1px solid black;
+  font-size: 1.5rem;
+	margin-left: 1ch;
+}
+
+#mobile-menu li:not(#logo) > a {
+	font-size: 1.5rem;
+}
